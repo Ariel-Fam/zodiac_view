@@ -21,7 +21,7 @@ export default function Home() {
 
       <Link href={"/signSelect"}>
       
-        <Image className="mt-20 hover:scale-110 cursor-pointer"  src={"/learnMore.png"} width={180} height={80} alt="img" />
+        <Image className="mt-20 mb-27 hover:scale-110 cursor-pointer"  src={"/learnMore.png"} width={180} height={80} alt="img" />
       </Link>
 
       
