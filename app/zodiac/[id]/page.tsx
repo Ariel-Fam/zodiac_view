@@ -36,6 +36,17 @@ export default async function ZodiacPage({ params }: { params: Promise<Params> }
             {sign.dateRange} • Element: {sign.element} • Modality: {sign.modality}
             </h2>
 
+            {sign.summary && (
+              <div className="mt-12 mb-8 w-full max-w-2xl">
+                <div className="bg-gradient-to-br from-blue-500 to-purple-600 p-8 rounded-3xl shadow-2xl">
+                  <h2 className="text-2xl font-bold mb-4 text-white">About {sign.name}</h2>
+                  <p className="text-white leading-relaxed text-base">
+                    {sign.summary}
+                  </p>
+                </div>
+              </div>
+            )}
+
             <section className="mt-6  items-center grid  gap-6 md:grid-rows-5">
 
             <div className="flex flex-col items-center mb-20 mt-10" >   

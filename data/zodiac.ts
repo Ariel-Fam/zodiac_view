@@ -21,6 +21,7 @@ export type ZodiacSign = {
   loveLanguage: LoveLanguage;
   weaknesses: string[];
   growthTips: string[];
+  summary?: string;
 };
 
 export const ZODIAC_SIGNS: ZodiacSign[] = [
@@ -33,6 +34,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Cardinal",
     "rulingPlanet": "Mars",
     "symbol": "Ram",
+    "summary": "The Ram, Aries! You're known for your adventurous spirit, boldness, and natural leadership qualities. You love taking risks and trying new things, which can make life exciting and unpredictable. With a strong sense of self-assurance, you're not afraid to take charge and lead the way. Once you set your sights on something, you'll stop at nothing to achieve it. You tend to act on instinct rather than overthinking things. However, your tendency to act without thinking can lead to reckless decisions or hurtful actions. You may struggle with listening to others or compromising on your ideas, and might interrupt others or steamroll their opinions. Overall, your nature is a complex blend of adventure, confidence, and determination. While you might face challenges in being more patient or considerate, your boldness and leadership qualities make you a valuable contributor to society!",
     "keywords": [
       "initiative",
       "courage",
@@ -133,6 +135,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Fixed",
     "rulingPlanet": "Venus",
     "symbol": "Bull",
+    "summary": "The Bull, Taurus! You're known for your practicality, sensuality, and love of comfort. You're dependable and take your commitments seriously, striving to be reliable partners, friends, and family members. You have a natural affinity for practical approaches to life, a strong appreciation for the finer things like good food and comfortable spaces, and can be quite stubborn when you've made up your mind. However, you might struggle with adapting to new ideas or circumstances, especially if you feel uncertain or threatened. Your love of comfort can sometimes lead to overindulgence, and you might become overly possessive or controlling in relationships. Overall, your nature is a complex blend of practicality, sensuality, and determination. While you might face challenges in adapting to uncertainty or managing your desire for comfort, your reliability and responsibility make you a valuable contributor to society!",
     "keywords": [
       "stability",
       "comfort",
@@ -233,6 +236,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Mutable",
     "rulingPlanet": "Mercury",
     "symbol": "Twins",
+    "summary": "The Twins, Gemini! You're known for your curiosity, adaptability, and quick wit. You're always eager to learn and explore new things with a natural curiosity about the world. With your flexible nature, you can easily adjust to changing situations, and you're often adept at articulating your thoughts and ideas in a clear and concise manner. However, your curiosity can also make you restless and easily bored with routine tasks. Your short attention span can sometimes lead to distractibility, and with so many ideas competing for your attention, you might struggle with making decisions or committing to a single course of action. In some cases, your curiosity can lead you to focus on surface-level issues rather than diving deeper. Overall, your nature is a complex blend of curiosity, adaptability, and quick wit. While you might face challenges in being more focused or decisive, your enthusiasm and communication skills make you a valuable contributor to society!",
     "keywords": [
       "curiosity",
       "communication",
@@ -333,6 +337,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Cardinal",
     "rulingPlanet": "Moon",
     "symbol": "Crab",
+    "summary": "The Crab, Cancer! You're known for your emotional depth, nurturing qualities, and strong connection to family and home. You're naturally empathetic and able to sense the emotions and needs of those around you. With a strong desire to care for and protect loved ones, you often make a great caregiver and friend. Your emotional connection to past experiences and memories can sometimes make it difficult to let go of the past or move on from painful events. Once committed to something or someone, you're fiercely loyal and will work hard to maintain and protect your relationships. However, empathy can sometimes become overwhelming, and you may struggle with making decisions or standing up for yourself in certain situations. Your sensitivity can lead you to ruminate on past hurts or negative experiences. Overall, your nature is a complex blend of emotional depth, nurturing qualities, and strong connections. While you might face challenges in being more decisive or letting go of the past, your empathy and loyalty make you a valuable contributor to society!",
     "keywords": [
       "nurture",
       "intuition",
@@ -433,6 +438,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Fixed",
     "rulingPlanet": "Sun",
     "symbol": "Lion",
+    "summary": "The Lion, Leo! You're known for your confidence, charisma, and generosity. You exude an air of confidence and self-assurance that can be inspiring to others. You have a natural talent for creativity, whether it's in art, music, or other forms of expression, and are known for your generosity and warmth towards others. You enjoy being around people and sharing your time and resources with those you care about. With your confidence and charisma, you often take on leadership roles and excel in positions where you can inspire and motivate others. However, your strong sense of self-importance can sometimes lead to becoming overly proud or egoistic. Your creativity and flair for drama can sometimes make you come across as attention-seeking or manipulative. In relationships, you might become overly protective and possessive. Overall, your nature is a complex blend of confidence, charisma, and generosity. While you might face challenges in managing your ego or forming deep connections with others, your creativity and warmth make you a valuable contributor to society!",
     "keywords": [
       "radiance",
       "leadership",
@@ -533,6 +539,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Mutable",
     "rulingPlanet": "Mercury",
     "symbol": "Maiden",
+    "summary": "The Virgin, Virgo! You're known for your practicality, diligence, and attention to detail. You have a keen eye for detail and are often analytical in your approach to problem-solving. You might spend hours researching or breaking down complex tasks into manageable parts. You're known for your strong work ethic and dedication to achieving your goals, willing to put in the time and effort required to get things right. You have a natural affinity for practical, down-to-earth approaches to life. However, your focus on imperfections might lead you to neglect your own strengths and accomplishments. The high standards you set can sometimes create unrealistic expectations for yourself or others, leading to feelings of anxiety and stress. In romantic relationships, you might strive for a perfect partnership, which can be an unattainable goal. Overall, your nature is a complex blend of practicality, diligence, and analytical thinking. While you might face challenges in achieving perfection or adapting to uncertainty, your attention to detail and hardworking attitude make you a valuable contributor to society!",
     "keywords": [
       "service",
       "precision",
@@ -633,6 +640,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Cardinal",
     "rulingPlanet": "Venus",
     "symbol": "Scales",
+    "summary": "The Scales, Libra! You're known for your diplomacy, charm, and strong sense of justice. You have a natural talent for navigating complex social situations and bringing people together. You enjoy being around others and value harmony above all else. With your pleasant demeanor and quick wit, you can be quite charming and persuasive, often using your charm to smooth over conflicts or negotiate agreements. You have a strong sense of fairness and justice, which motivates you to seek balance and equality in all aspects of life. You're naturally drawn to causes that promote social justice and human rights. However, while you're known for your analytical mind, you can sometimes struggle with making decisions, especially when faced with conflicting opinions or choices. Your focus on social harmony and appearances might lead you to neglect deeper issues or conflicts. You may prioritize maintaining relationships over addressing difficult truths. Overall, your nature is a complex blend of diplomacy, charm, and justice-oriented principles. While you might face challenges in making decisions or addressing conflicts, your social skills and strong sense of fairness make you a valuable contributor to society!",
     "keywords": [
       "harmony",
       "partnership",
@@ -733,6 +741,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Fixed",
     "rulingPlanet": "Pluto • Mars",
     "symbol": "Scorpion",
+    "summary": "The Scorpion, Scorpio! You're known for your intensity, passion, and profound emotional depth. You have an aura of mystery surrounding you, which can be both fascinating and intimidating. You're often deeply passionate about your interests and pursuits. You have a strong connection to your intuition, allowing you to sense the emotions and motivations of others with uncanny accuracy. Once someone has earned your trust and loyalty, you'll fiercely defend and protect them. You value long-term relationships and are committed to your loved ones. You often keep your thoughts and feelings private, making it difficult for others to get close to you. However, you can become intensely focused on your goals and interests, which can lead to an unhealthy obsession with details. Your strong emotions can sometimes boil over into anger or jealousy. In some cases, you might use your intuition and insight to manipulate others. Overall, your nature is a complex blend of intensity, passion, and emotional depth. While you might face challenges in managing your emotions or forming deep connections with others, your loyalty and protectiveness make you a valuable contributor to society!",
     "keywords": [
       "depth",
       "transformation",
@@ -833,6 +842,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Mutable",
     "rulingPlanet": "Jupiter",
     "symbol": "Archer",
+    "summary": "The Archer, Sagittarius! You're known for your love of adventure, freedom, and exploration. You're naturally optimistic and enthusiastic about life, with a strong desire to expand your horizons and explore new possibilities. You're always up for a challenge and love to take risks. You're often spontaneous and enjoy trying new things, whether it's traveling to new places or engaging in new hobbies. You have a natural affinity for philosophy and the pursuit of wisdom. You often possess a deep understanding of human nature and the world around you. You're known for your generosity and love to share your time, resources, and knowledge with others. You're naturally expansive and enjoy exploring new ideas and perspectives. However, your love of adventure and exploration can sometimes make you restless and easily distracted. You might struggle with focusing on one thing for too long. With your direct and honest approach, you may come across as blunt or tactless to others. While your optimism is often a strength, it can sometimes lead you to overlook potential pitfalls or difficulties. Overall, your nature is a complex blend of adventure, freedom, and wisdom. While you might face challenges in being more considerate or focused, your enthusiasm and generosity make you a valuable contributor to society!",
     "keywords": [
       "freedom",
       "truth",
@@ -933,6 +943,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Cardinal",
     "rulingPlanet": "Saturn",
     "symbol": "Sea-Goat",
+    "summary": "The Goat, Capricorn! You're known for your ambition, discipline, and strong sense of responsibility. You're often driven by a desire to achieve great things and succeed in your chosen field. You have high standards for yourself and others. With your practical and no-nonsense approach, you're likely to be reliable, responsible, and hardworking. You value stability and security. You're known for your ability to stick with a project or task until it's completed. You're willing to put in the effort required to achieve success. Your conservative nature may lead you to be cautious when it comes to new ideas or approaches. You prefer tried-and-true methods over innovative ones. However, your strong sense of responsibility and tradition can sometimes make you resistant to change or new ideas. Your high standards for yourself and others may lead you to be overly self-critical or perfectionistic. This can create unrealistic expectations and lead to disappointment or frustration. Your practical nature may sometimes make you less expressive of your emotions or needs. Overall, your nature is a complex blend of ambition, discipline, and responsibility. While you might face challenges in being more flexible or emotionally expressive, your drive and perseverance make you a valuable contributor to society!",
     "keywords": [
       "ambition",
       "structure",
@@ -1033,6 +1044,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Fixed",
     "rulingPlanet": "Uranus • Saturn",
     "symbol": "Water-Bearer",
+    "summary": "The Water Bearer's nature! Aquarians are known for their intellectual curiosity and love for learning. They're often drawn to science, philosophy, and the arts, and have a natural talent for communication and expression. Aquarians are innovators constantly looking for ways to improve things. They might be attracted to cutting-edge technology, alternative energy sources, or social movements that challenge traditional norms. As humanitarians, Aquarians have a strong sense of empathy and compassion for others. They often get involved in charity work, volunteerism, or activism to make a positive impact on society. As free thinkers, Aquarians value independence and individuality above all else. They might be drawn to nonconformist ideas or unconventional relationships that challenge traditional norms. When passionate about something, they throw themselves wholeheartedly into it. However, their tendency to be impulsive and rebellious can sometimes lead them into trouble. They might take unnecessary risks or act impulsively without considering the consequences. As an air sign, Aquarians often struggle with emotional intensity and may appear aloof or detached to others. Overall, the Water Bearer's nature is a complex blend of intellectual curiosity, humanitarianism, and rebellious spirit. While they might face challenges in forming deep connections with others or adapting to traditional norms, their enthusiasm and innovative thinking make them unique and valuable contributors to society!",
     "keywords": [
       "innovation",
       "community",
@@ -1133,6 +1145,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     "modality": "Mutable",
     "rulingPlanet": "Neptune • Jupiter",
     "symbol": "Fish",
+    "summary": "The Fish, Pisces! You're known for your empathy, creativity, and strong intuition. You're naturally able to understand and connect with others on a deep level. You have a strong sense of empathy and can often sense the emotions and needs of those around you. With your vivid imagination, you're often drawn to artistic pursuits such as music, painting, or writing. You have a unique ability to see beyond the surface level and tap into your intuition to create something truly original. You're known for your strong intuition, which can sometimes manifest as psychic abilities such as telepathy or clairvoyance. You often rely on your gut instincts to make decisions or navigate complex situations. With your heightened sensitivity, you can be deeply affected by the emotions of those around you. You may struggle with setting boundaries or dealing with conflict. However, while empathy is a strength for you, you can sometimes become overwhelmed by the emotions of others. This can lead to feelings of anxiety or burnout if not managed properly. With your strong intuition and imagination, you can be easily influenced by the opinions and suggestions of others. You may struggle with making decisions or standing up for yourself in certain situations. Overall, your nature is a complex blend of empathy, creativity, and intuition. While you might face challenges in being more decisive or setting boundaries, your compassion and imagination make you a valuable contributor to society!",
     "keywords": [
       "empathy",
       "imagination",
